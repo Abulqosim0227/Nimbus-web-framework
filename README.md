@@ -96,18 +96,6 @@ Visit `http://localhost:8080` in your browser to see "Hello, World!".
 ```
 
 
-## 2. Run the App
-
-### Running in Production
-For production environments, it’s recommended to use **Waitress** as your WSGI server. Waitress is a production-ready server that can handle multiple requests efficiently.
-
-#### Install Waitress
-If you haven’t already installed Waitress, you can install it via pip:
-
-```bash
-pip install waitress
-```
-
 #### Run the App with Waitress
 You can run your app directly using Waitress:
 
