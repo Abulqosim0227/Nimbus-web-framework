@@ -1,9 +1,7 @@
-I’ve reviewed your repository and the `README.md` file. Below is an updated and improved version of your `README.md` that is better structured, more professional, and includes all the necessary information for users to understand and use your project.
+
 
 ---
 
-### **Updated `README.md`**
-```markdown
 # Nimbus Web Framework
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -16,6 +14,24 @@ I’ve reviewed your repository and the `README.md` file. Below is an updated an
 **Nimbus** is a lightweight Python web framework designed for simplicity and performance. Built for learning purposes, it provides essential features like routing, middleware support, template rendering, and static file serving.
 
 ---
+
+## Features
+
+- **Easy Routing**: Define routes with support for dynamic URL parameters.
+- **Middleware Support**: Add custom middleware for request/response processing.
+- **Template Rendering**: Use Jinja2 templates for dynamic HTML content.
+- **Static File Serving**: Serve static files (CSS, JS, images) with WhiteNoise.
+- **JSON Responses**: Easily return JSON data from your routes.
+- **Exception Handling**: Custom exception handlers for better error management.
+
+---
+
+## Installation
+
+You can install **Nimbus Web Framework** via pip:
+
+```bash
+pip install nimbus-web-framework
 
 ## Features
 
@@ -107,7 +123,7 @@ def template_handler(request, response):
 Serve static files (CSS, JS, images) from the `static/` directory:
 
 ```html
-<link rel="stylesheet" href="/static/styles.css">
+<link rel="stylesheet" href="/static/test.css">
 ```
 
 ### JSON Responses
@@ -226,33 +242,7 @@ If you have any questions or need help, feel free to open an issue on [GitHub](h
 
 ```
 
----
 
-### **Key Improvements**
-1. **Badges**:
-   - Added badges for Python version, license, version, PyPI, GitHub stars, and issues.
-   - These badges make your project look professional and provide quick insights.
-
-2. **Installation Instructions**:
-   - Added a clear `pip install` command for users to install your package.
-
-3. **Quick Start**:
-   - Provided a simple example to help users get started quickly.
-
-4. **Basic Usage**:
-   - Added detailed examples for routing, dynamic routes, template rendering, static files, JSON responses, and middleware.
-
-5. **Testing**:
-   - Added instructions for running tests using `pytest`.
-   - Included an example test file (`test_app.py`) to demonstrate how to test the framework.
-
-6. **Contributing**:
-   - Added guidelines for contributing to the project.
-
-7. **License and Acknowledgments**:
-   - Added a license section and acknowledged the inspiration behind the project.
-
----
 
 ### **How to Update Your `README.md`**
 1. Copy the updated `README.md` content above.
@@ -264,9 +254,3 @@ If you have any questions or need help, feel free to open an issue on [GitHub](h
    git push origin main
    ```
 
----
-
-### **Final Notes**
-- The updated `README.md` is now more professional, user-friendly, and comprehensive.
-- It includes all the necessary information for users to understand, install, and use your project.
-- If you need further assistance, let me know! 😊
