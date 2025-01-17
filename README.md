@@ -231,17 +231,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 If you have any questions or need help, feel free to open an issue on [GitHub](https://github.com/Abulqosim0227/Nimbus-web-framework/issues).
 
-```
 
 
 
-### **How to Update Your `README.md`**
-1. Copy the updated `README.md` content above.
-2. Replace the existing `README.md` file in your repository with the new content.
-3. Commit and push the changes:
-   ```bash
-   git add README.md
-   git commit -m "Update README.md with improved documentation"
-   git push origin main
-   ```
 
