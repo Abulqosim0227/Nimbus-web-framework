@@ -94,31 +94,6 @@ python app.py
 
 Visit `http://localhost:8080` in your browser to see "Hello, World!".
 
-### Run the App with Waitress
-You can run your app directly using Waitress:
-
-```bash
-waitress-serve --call 'app:app'
-
-This command assumes that your `app` object is defined in a file named `app.py`.
-
----
-
-### Development vs Production
-- **Development**: Use the built-in development server for testing and debugging.
-- **Production**: Use **Waitress** or another production-ready server like **Gunicorn** or **uWSGI**.
-
----
-
-### Start the Development Server
-For development, you can start the server using:
-
-```bash
-python app.py
-```
-
-Visit `http://localhost:8080` in your browser to see "Hello, World!".
-
 
 
 ## Basic Usage
