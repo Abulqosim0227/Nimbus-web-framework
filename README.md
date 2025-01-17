@@ -26,23 +26,14 @@
 
 ---
 
+
+
 ## Installation
 
 You can install **Nimbus Web Framework** via pip:
 
 ```bash
 pip install nimbus-web-framework
-
-## Features
-
-- **Easy Routing**: Define routes with support for dynamic URL parameters.
-- **Middleware Support**: Add custom middleware for request/response processing.
-- **Template Rendering**: Use Jinja2 templates for dynamic HTML content.
-- **Static File Serving**: Serve static files (CSS, JS, images) with WhiteNoise.
-- **JSON Responses**: Easily return JSON data from your routes.
-- **Exception Handling**: Custom exception handlers for better error management.
-
----
 
 ## Installation
 
