@@ -95,25 +95,6 @@ python app.py
 Visit `http://localhost:8080` in your browser to see "Hello, World!".
 ```
 
----
-
-### **Key Fixes**
-1. **Clear Separation**:
-   - Added clear headings for **Running in Production** and **Development vs Production**.
-   - Separated instructions for development and production environments.
-
-2. **Code Blocks**:
-   - Fixed the code blocks by using triple backticks (```) for proper formatting.
-
-3. **Consistency**:
-   - Made the instructions consistent and easy to follow.
-
----
-
-### **How It Looks on GitHub**
-When you add this to your `README.md`, it will look like this:
-
----
 
 ## 2. Run the App
 
