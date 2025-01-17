@@ -93,15 +93,12 @@ python app.py
 ```
 
 Visit `http://localhost:8080` in your browser to see "Hello, World!".
-```
 
-
-#### Run the App with Waitress
+### Run the App with Waitress
 You can run your app directly using Waitress:
 
 ```bash
 waitress-serve --call 'app:app'
-```
 
 This command assumes that your `app` object is defined in a file named `app.py`.
 
