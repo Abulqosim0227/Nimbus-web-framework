@@ -62,29 +62,102 @@ if __name__ == "__main__":
     app.run()
 ```
 
-### 2. Run the App
-Running in Production
-For production environments, it’s recommended to use Waitress as your WSGI server. Waitress is a production-ready server that can handle multiple requests efficiently.
+Got it! Let’s fix the text you provided to make it clear and well-organized for GitHub. Here's the corrected version:
 
-Install Waitress
+---
+
+### **Fixed Text**
+```markdown
+## 2. Run the App
+
+### Running in Production
+For production environments, it’s recommended to use **Waitress** as your WSGI server. Waitress is a production-ready server that can handle multiple requests efficiently.
+
+#### Install Waitress
 If you haven’t already installed Waitress, you can install it via pip:
 
-bash
-Copy
+```bash
 pip install waitress
-Run the App with Waitress
+```
+
+#### Run the App with Waitress
 You can run your app directly using Waitress:
 
-bash
-Copy
+```bash
 waitress-serve --call 'app:app'
-This command assumes that your app object is defined in a file named app.py.
+```
 
-Development vs Production
-Development: Use the built-in development server for testing and debugging.
+This command assumes that your `app` object is defined in a file named `app.py`.
 
-Production: Use Waitress or another production-ready server like Gunicorn or uWSGI.
-Start the development server:
+---
+
+### Development vs Production
+- **Development**: Use the built-in development server for testing and debugging.
+- **Production**: Use **Waitress** or another production-ready server like **Gunicorn** or **uWSGI**.
+
+---
+
+### Start the Development Server
+For development, you can start the server using:
+
+```bash
+python app.py
+```
+
+Visit `http://localhost:8080` in your browser to see "Hello, World!".
+```
+
+---
+
+### **Key Fixes**
+1. **Clear Separation**:
+   - Added clear headings for **Running in Production** and **Development vs Production**.
+   - Separated instructions for development and production environments.
+
+2. **Code Blocks**:
+   - Fixed the code blocks by using triple backticks (```) for proper formatting.
+
+3. **Consistency**:
+   - Made the instructions consistent and easy to follow.
+
+---
+
+### **How It Looks on GitHub**
+When you add this to your `README.md`, it will look like this:
+
+---
+
+## 2. Run the App
+
+### Running in Production
+For production environments, it’s recommended to use **Waitress** as your WSGI server. Waitress is a production-ready server that can handle multiple requests efficiently.
+
+#### Install Waitress
+If you haven’t already installed Waitress, you can install it via pip:
+
+```bash
+pip install waitress
+```
+
+#### Run the App with Waitress
+You can run your app directly using Waitress:
+
+```bash
+waitress-serve --call 'app:app'
+```
+
+This command assumes that your `app` object is defined in a file named `app.py`.
+
+---
+
+### Development vs Production
+- **Development**: Use the built-in development server for testing and debugging.
+- **Production**: Use **Waitress** or another production-ready server like **Gunicorn** or **uWSGI**.
+
+---
+
+### Start the Development Server
+For development, you can start the server using:
 
 ```bash
 python app.py
@@ -92,7 +165,7 @@ python app.py
 
 Visit `http://localhost:8080` in your browser to see "Hello, World!".
 
----
+
 
 ## Basic Usage
 
