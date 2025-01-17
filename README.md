@@ -63,7 +63,27 @@ if __name__ == "__main__":
 ```
 
 ### 2. Run the App
+Running in Production
+For production environments, it’s recommended to use Waitress as your WSGI server. Waitress is a production-ready server that can handle multiple requests efficiently.
 
+Install Waitress
+If you haven’t already installed Waitress, you can install it via pip:
+
+bash
+Copy
+pip install waitress
+Run the App with Waitress
+You can run your app directly using Waitress:
+
+bash
+Copy
+waitress-serve --call 'app:app'
+This command assumes that your app object is defined in a file named app.py.
+
+Development vs Production
+Development: Use the built-in development server for testing and debugging.
+
+Production: Use Waitress or another production-ready server like Gunicorn or uWSGI.
 Start the development server:
 
 ```bash
