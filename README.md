@@ -1,8 +1,8 @@
-Certainly! Below is an updated `README.md` that includes **basic usage**, **testing instructions**, and other relevant details. I've also included a section for running tests using `test.py`.
+I’ve reviewed your repository and the `README.md` file. Below is an updated and improved version of your `README.md` that is better structured, more professional, and includes all the necessary information for users to understand and use your project.
 
 ---
 
-### **Updated README.md**
+### **Updated `README.md`**
 ```markdown
 # Nimbus Web Framework
 
@@ -10,8 +10,8 @@ Certainly! Below is an updated `README.md` that includes **basic usage**, **test
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-0.1.0-orange)
 ![PyPI](https://img.shields.io/pypi/v/nimbus-web-framework)
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/nimbus-web-framework?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/nimbus-web-framework)
+![GitHub Stars](https://img.shields.io/github/stars/Abulqosim0227/Nimbus-web-framework?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/Abulqosim0227/Nimbus-web-framework)
 
 **Nimbus** is a lightweight Python web framework designed for simplicity and performance. Built for learning purposes, it provides essential features like routing, middleware support, template rendering, and static file serving.
 
@@ -146,8 +146,8 @@ The framework includes a comprehensive test suite to ensure functionality. To ru
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nimbus-web-framework.git
-   cd nimbus-web-framework
+   git clone https://github.com/Abulqosim0227/Nimbus-web-framework.git
+   cd Nimbus-web-framework
    ```
 
 2. Install the development dependencies:
@@ -216,47 +216,57 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Acknowledgments
 
 - Inspired by **Flask** and **Bottle**.
-- Built with ❤️ by [Abulqosim Rafiqov](https://github.com/yourusername).
+- Built with ❤️ by [Abulqosim Rafiqov](https://github.com/Abulqosim0227).
 
 ---
 
 ## Support
 
-If you have any questions or need help, feel free to open an issue on [GitHub](https://github.com/yourusername/nimbus-web-framework/issues).
+If you have any questions or need help, feel free to open an issue on [GitHub](https://github.com/Abulqosim0227/Nimbus-web-framework/issues).
 
 ```
 
 ---
 
-### **Key Additions**
-1. **Basic Usage**:
+### **Key Improvements**
+1. **Badges**:
+   - Added badges for Python version, license, version, PyPI, GitHub stars, and issues.
+   - These badges make your project look professional and provide quick insights.
+
+2. **Installation Instructions**:
+   - Added a clear `pip install` command for users to install your package.
+
+3. **Quick Start**:
+   - Provided a simple example to help users get started quickly.
+
+4. **Basic Usage**:
    - Added detailed examples for routing, dynamic routes, template rendering, static files, JSON responses, and middleware.
 
-2. **Testing**:
+5. **Testing**:
    - Added instructions for running tests using `pytest`.
    - Included an example test file (`test_app.py`) to demonstrate how to test the framework.
 
-3. **Badges**:
-   - Added a PyPI badge to display the latest version of your package.
+6. **Contributing**:
+   - Added guidelines for contributing to the project.
+
+7. **License and Acknowledgments**:
+   - Added a license section and acknowledged the inspiration behind the project.
 
 ---
 
-### **How to Use the Test File**
-1. Save the `test_app.py` file in the `tests/` directory of your project.
-2. Install `pytest` if you haven’t already:
+### **How to Update Your `README.md`**
+1. Copy the updated `README.md` content above.
+2. Replace the existing `README.md` file in your repository with the new content.
+3. Commit and push the changes:
    ```bash
-   pip install pytest
-   ```
-3. Run the tests:
-   ```bash
-   pytest tests/test_app.py
+   git add README.md
+   git commit -m "Update README.md with improved documentation"
+   git push origin main
    ```
 
 ---
 
 ### **Final Notes**
-- Replace `yourusername` with your actual GitHub username.
-- Ensure your `requirements.txt` includes `pytest` and any other dependencies needed for testing.
-- Badges and testing instructions make your project more professional and user-friendly.
-
-Let me know if you need further assistance! 😊
+- The updated `README.md` is now more professional, user-friendly, and comprehensive.
+- It includes all the necessary information for users to understand, install, and use your project.
+- If you need further assistance, let me know! 😊
