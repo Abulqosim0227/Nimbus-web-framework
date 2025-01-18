@@ -52,7 +52,7 @@ pip install nimbus-web-framework
 ### 1. Create a Simple App
 
 ```python
-from nimbus import Nimbusapp
+from Nimbus.app import Nimbusapp
 
 app = Nimbusapp()
 
