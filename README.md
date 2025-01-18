@@ -13,6 +13,8 @@
 
 **Nimbus** is a lightweight Python web framework designed for simplicity and performance. Built for learning purposes, it provides essential features like routing, middleware support, template rendering, and static file serving.
 
+There should be __init__.py file inside of Nimbus file please don't forget
+
 ---
 
 ## Features
